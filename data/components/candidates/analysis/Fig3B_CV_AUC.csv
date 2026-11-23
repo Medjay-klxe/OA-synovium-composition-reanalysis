@@ -1,0 +1,6 @@
+model,n,lambda,mean_CV_AUC,repeat_sd,repeat_Q1,repeat_Q3,conditional_lo,conditional_hi,interval_type
+Macrophage fraction,44,1,0.798894736842105,0.00903234859733868,0.79421052631579,0.803157894736842,0.647628947368421,0.928318421052631,stratified participant bootstrap of fixed out-of-fold predictions; training uncertainty not fully captured
+PYCARD alone,44,1,0.510210526315789,0.0345881144116127,0.496315789473684,0.543157894736842,0.342521052631579,0.678323684210526,stratified participant bootstrap of fixed out-of-fold predictions; training uncertainty not fully captured
+OLR1 alone,44,1,0.811263157894737,0.0131965084382713,0.802105263157895,0.822105263157895,0.679147368421053,0.920121052631579,stratified participant bootstrap of fixed out-of-fold predictions; training uncertainty not fully captured
+Macrophage + PYCARD,44,1,0.774,0.0152161852426034,0.765263157894737,0.781578947368421,0.622486842105263,0.912215789473684,stratified participant bootstrap of fixed out-of-fold predictions; training uncertainty not fully captured
+Macrophage + OLR1,44,1,0.81578947368421,0.0127875869246544,0.806842105263158,0.824736842105263,0.680410526315789,0.934010526315789,stratified participant bootstrap of fixed out-of-fold predictions; training uncertainty not fully captured

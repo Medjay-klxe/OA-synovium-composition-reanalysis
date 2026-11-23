@@ -1,0 +1,13 @@
+definition,gene,n,n_OA,n_control,auc,lo,hi,direction
+OA vs Normal,PYCARD,44,19,25,0.566315789473684,0.391526315789474,0.741052631578947,higher score predicts OA; never auto-flipped
+OA vs Normal,OLR1,44,19,25,0.835789473684211,0.707368421052632,0.934736842105263,higher score predicts OA; never auto-flipped
+OA vs Normal,CD68,44,19,25,0.814736842105263,0.667368421052632,0.932631578947368,higher score predicts OA; never auto-flipped
+OA vs Normal,Macrophage fraction,44,19,25,0.823157894736842,0.678921052631579,0.937921052631579,higher score predicts OA; never auto-flipped
+OA vs all non-OA,PYCARD,197,19,178,0.52602010644589,0.384084861028977,0.670328208160852,higher score predicts OA; never auto-flipped
+OA vs all non-OA,OLR1,197,19,178,0.649319929036073,0.510895919574216,0.786819929036073,higher score predicts OA; never auto-flipped
+OA vs all non-OA,CD68,197,19,178,0.620047309284447,0.482525133057363,0.763793613246599,higher score predicts OA; never auto-flipped
+OA vs all non-OA,Macrophage fraction,197,19,178,0.497634535777646,0.364865464222354,0.6375,higher score predicts OA; never auto-flipped
+OA vs Rheumatoid arthritis,PYCARD,157,19,138,0.516399694889397,0.375619755911518,0.656378718535469,higher score predicts OA; never auto-flipped
+OA vs Rheumatoid arthritis,OLR1,157,19,138,0.638062547673532,0.496176582761251,0.781874523264683,higher score predicts OA; never auto-flipped
+OA vs Rheumatoid arthritis,CD68,157,19,138,0.598779557589626,0.456512204424104,0.74141876430206,higher score predicts OA; never auto-flipped
+OA vs Rheumatoid arthritis,Macrophage fraction,157,19,138,0.440122044241037,0.309248665141114,0.583905415713196,higher score predicts OA; never auto-flipped

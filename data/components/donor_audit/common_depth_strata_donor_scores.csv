@@ -1,0 +1,7 @@
+sample,group,score,bins
+sc_healthy_1,Healthy,-0.0558079260016332,4
+sc_healthy_2,Healthy,-0.00784226404306041,4
+sc_healthy_3,Healthy,-0.0531570218065554,4
+sc_OA_1,OA,0.04577852118191,4
+sc_OA_2,OA,0.114523956366533,4
+sc_OA_3,OA,-0.0543981256775428,4
