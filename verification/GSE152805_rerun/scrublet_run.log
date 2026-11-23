@@ -1,0 +1,4 @@
+sample  total  predicted_doublets  fraction  automatic_threshold  expected_doublet_rate_assumed status
+SY_113   5096                   6  0.001177             0.585701                           0.06     ok
+SY_116   3875                   3  0.000774             0.548397                           0.06     ok
+SY_118   1629                   2  0.001228             0.435747                           0.06     ok
