@@ -1,0 +1,17 @@
+dataset,method,model,n,sets,BH_lt05,HC3_BH_lt05,direction_agreement
+GSE82107,ssgsea,fibroblast,17,39,0,0,14
+GSE143514,ssgsea,fibroblast,8,39,0,0,25
+GSE82107,ssgsea,macrophage,17,39,0,0,25
+GSE143514,ssgsea,macrophage,8,39,0,0,17
+GSE82107,ssgsea,macrophage_exclude15,17,39,0,0,24
+GSE143514,ssgsea,macrophage_exclude15,8,39,0,0,14
+GSE82107,ssgsea,unadjusted,17,39,0,0,28
+GSE143514,ssgsea,unadjusted,8,39,0,0,23
+GSE82107,z_mean,fibroblast,17,39,0,0,9
+GSE143514,z_mean,fibroblast,8,39,0,0,32
+GSE82107,z_mean,macrophage,17,39,0,0,21
+GSE143514,z_mean,macrophage,8,39,0,0,18
+GSE82107,z_mean,macrophage_exclude15,17,39,0,0,20
+GSE143514,z_mean,macrophage_exclude15,8,39,0,0,17
+GSE82107,z_mean,unadjusted,17,39,0,0,19
+GSE143514,z_mean,unadjusted,8,39,0,0,32

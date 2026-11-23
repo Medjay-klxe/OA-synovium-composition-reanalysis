@@ -1,0 +1,8 @@
+﻿dataset,donor,GSM,age,sex,OA grade,site,source or verification status
+GSE283080,Infla1,GSM8655601,Not reported,Not reported,Not reported,膝滑膜；具体亚区未报告,GEO sample; original paper group-level table does not establish sample linkage
+GSE283080,Infla2,GSM8655602,Not reported,Not reported,Not reported,膝滑膜；具体亚区未报告,GEO sample; original paper group-level table does not establish sample linkage
+GSE283080,Fibro1,GSM8655603,Not reported,Not reported,Not reported,膝滑膜；具体亚区未报告,GEO sample; original paper group-level table does not establish sample linkage
+GSE283080,Fibro2,GSM8655604,Not reported,Not reported,Not reported,膝滑膜；具体亚区未报告,GEO sample; original paper group-level table does not establish sample linkage
+GSE152805,SY_113,GSM4626763,Not reported,Not verified,Not reported,膝滑膜；具体亚区未报告,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4626763
+GSE152805,SY_116,GSM4626764,Not reported,Female,Not reported,膝滑膜；具体亚区未报告,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4626764
+GSE152805,SY_118,GSM4626765,Not reported,Female,Not reported,膝滑膜；具体亚区未报告,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4626765
