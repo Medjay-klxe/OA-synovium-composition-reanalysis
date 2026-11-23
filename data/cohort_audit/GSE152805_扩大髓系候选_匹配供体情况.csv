@@ -1,0 +1,4 @@
+﻿sample,candidate_cells,OLR1_positive,OLR1_negative,matched_pairs,eligible,mean_matched_logUMI_difference
+SY_113,340,137,203,91,True,0.003506233920030013
+SY_116,288,144,144,101,True,0.003920435759857295
+SY_118,641,119,522,108,True,0.01994193092975852
