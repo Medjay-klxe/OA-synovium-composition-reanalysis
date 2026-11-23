@@ -1,0 +1,78 @@
+﻿module,gene,direction,evidence_in_paper,note
+M1_immune_sensing,TLR2,1,Fig 1A (PAM3 + CS),TLR2 ligand triggers death with carbon starvation
+M1_immune_sensing,TLR4,1,Fig 1A-1C; Fig S1J,LPS receptor; required for LPS+CS death
+M1_immune_sensing,TLR7,1,Fig 1A (R837 + CS),TLR7 ligand triggers death with CS
+M1_immune_sensing,TLR9,1,Fig S1M (CpG + CS),TLR9 ligand triggers death with CS
+M1_immune_sensing,MYD88,1,Fig 1K; Fig S5C,Common adaptor; knockout protects against all TLR ligands
+M1_immune_sensing,TIRAP,1,inferred,MyD88 adaptor-like; bridges TLR2/4 to MyD88
+M1_immune_sensing,IRAK4,1,inferred,Downstream of MyD88; kinase dead in humans causes immunodeficiency
+M1_immune_sensing,TRAF6,1,inferred,E3 ligase downstream of MyD88/IRAK
+M1_immune_sensing,TNFRSF1A,1,Fig 1J,TNFR1; required for TNF+CS death
+M1_immune_sensing,TNFRSF1B,1,Fig 1J,TNFR2; required for TNF+CS death
+M1_immune_sensing,TLR3,-1,Fig S1K (poly I:C negative control),Uses TRIF not MyD88; the key negative control - do NOT weight positive
+M2_mito_damage,BAX,1,Fig S4D-S4J,BAX/BAK1/BID triple KO protects; main protective effect
+M2_mito_damage,BAK1,1,Fig S4D-S4J,Main protective effect together with BAX
+M2_mito_damage,BID,1,Fig S4D-S4J,Triple KO required for full protection
+M2_mito_damage,BBC3,1,inferred,PUMA; BH3-only activator of BAX/BAK1
+M2_mito_damage,PMAIP1,1,inferred,NOXA; BH3-only sensitizer
+M2_mito_damage,BAD,1,inferred,BH3-only sensitizer
+M3_antiox_buffer,GCLC,-1,Fig S2F-S2G,GSH synthesis rate-limiting subunit; GSH metabolism down in IIAMD
+M3_antiox_buffer,GCLM,-1,Fig S2F-S2G,GSH synthesis regulatory subunit
+M3_antiox_buffer,GSS,-1,Fig S2F-S2G,Glutathione synthetase
+M3_antiox_buffer,GSR,-1,Fig S2F-S2G,Glutathione reductase; recycles GSSG to GSH
+M3_antiox_buffer,GPX4,-1,inferred,GPX4 downregulation links to OA ferroptosis literature
+M3_antiox_buffer,SLC7A11,-1,inferred,Cystine/glutamate antiporter; supplies cysteine for GSH
+M3_antiox_buffer,SOD2,-1,inferred,Mitochondrial superoxide dismutase
+M3_antiox_buffer,CAT,-1,inferred,Catalase
+M3_antiox_buffer,TXN,-1,inferred,Thioredoxin
+M3_antiox_buffer,TXNRD1,-1,inferred,Thioredoxin reductase
+M3_antiox_buffer,NFE2L2,1,Fig S2P,NRF2 target genes enriched in LPS+CS; antioxidant response engaged
+M3_antiox_buffer,KEAP1,-1,Fig S2N (dispensable),NRF2 inhibitor; knockdown does NOT protect - oxeiptosis ruled out
+M4_mtorc2,MTOR,1,Fig 4A-4H; Fig S5A,mTOR pathway top upregulated; dual inhibitor protective
+M4_mtorc2,RICTOR,1,Fig 4G-4H,mTORC2 subunit; knockdown protects - the functional node
+M4_mtorc2,MAPKAP1,1,inferred,SIN1; mTORC2 subunit
+M4_mtorc2,MLST8,1,inferred,mLST8; shared mTORC1/C2 subunit
+M4_mtorc2,AKT1,1,Fig S5B,pAKT S473 is the mTORC2 readout
+M4_mtorc2,AKT2,1,inferred,Highly expressed in metabolic tissues
+M4_mtorc2,SGK1,1,inferred,Alternative mTORC2 substrate
+M4_mtorc1,RPTOR,-1,Fig 4G-4H,mTORC1 subunit; knockdown does NOT protect - negative node
+M4_mtorc1,RPS6KB1,-1,Fig S5B (pS6 readout),mTORC1 readout activated but not required
+M4_mtorc1,RPS6,-1,Fig S5B,S235/236 phosphorylation readout
+M4_mtorc1,EIF4EBP1,-1,inferred,mTORC1 substrate
+M5_cytoskeleton,RHOA,-1,Fig 5E; Fig 6F,RhoA activity DECREASED in IIAMD and restored by Torin-1
+M5_cytoskeleton,RHOB,-1,inferred,Related Rho GTPase
+M5_cytoskeleton,ROCK1,-1,inferred,Downstream RhoA effector
+M5_cytoskeleton,ROCK2,-1,inferred,Downstream RhoA effector
+M5_cytoskeleton,ACTR2,-1,Fig S6F-S6G (CK-666),ARP2/3 subunit; ARP2/3 inhibition reverses Torin-1 protection
+M5_cytoskeleton,ACTR3,-1,Fig S6F-S6G (CK-666),ARP2/3 subunit
+M5_cytoskeleton,ARPC2,-1,Fig S6F-S6G (CK-666),ARP2/3 subunit
+M5_cytoskeleton,ARPC1B,-1,inferred,ARP2/3 subunit
+M5_cytoskeleton,WASF1,-1,inferred,WAVE1; lamellipodia formation
+M5_cytoskeleton,WASF2,-1,inferred,WAVE2; lamellipodia formation
+M5_cytoskeleton,CTTN,-1,Fig 5F (F-actin ruffles),Cortactin; lamellipodial actin network
+M5_cytoskeleton,CFL1,-1,inferred,Cofilin; actin depolymerization
+M5_cytoskeleton,LIMK1,-1,inferred,Actin reorganization
+M5_cytoskeleton,DIAPH1,-1,inferred,Formin; actin polymerization
+M6_membrane_lysis,NINJ1,1,Fig 2D-2E,Required for LDH/HMGB1 release but NOT for death itself
+C1_contrast_pyroptosis,CASP1,-1,Fig 2G (QKO not protective),Activated but not required
+C1_contrast_pyroptosis,GSDMD,-1,Fig 2C; Fig S7E,Activated but not required; Gsdmd-/- mice die when pre-fasted
+C1_contrast_pyroptosis,GSDME,-1,Fig 2C,Activated but not required
+C1_contrast_pyroptosis,NLRP3,-1,Fig 2A,Dispensable for cell death (required only for IL-1b)
+C2_contrast_apoptosis,CASP3,-1,Fig 2F; Fig S2A,Caspase inhibitor z-VAD does not protect
+C2_contrast_apoptosis,CASP8,-1,Fig 2G,QKO not protective
+C2_contrast_apoptosis,CASP9,-1,Fig 2H-2K,Knockdown and CRISPR KO not protective
+C2_contrast_apoptosis,BCL2,-1,inferred,Anti-apoptotic; not implicated
+C3_contrast_necroptosis,MLKL,-1,Fig 2C,Phosphorylated but not required
+C3_contrast_necroptosis,RIPK3,-1,Fig 2G,QKO not protective
+C4_contrast_ferroptosis,ACSL4,-1,Fig 2F (Fer-1 no effect),Ferroptosis not involved
+C4_contrast_ferroptosis,FTH1,-1,inferred,Ferritin heavy chain
+C4_contrast_ferroptosis,NCOA4,-1,inferred,Ferritinophagy receptor
+S1_metabolic_stress,HIF1A,1,inferred,OA cartilage is hypoxic and avascular - OA-specific module
+S1_metabolic_stress,SLC2A1,1,inferred,GLUT1; glucose uptake - relevant to carbon starvation
+S1_metabolic_stress,HK2,1,inferred,Glycolysis
+S1_metabolic_stress,PGK1,1,inferred,Glycolysis
+S1_metabolic_stress,LDHA,1,inferred,Lactate dehydrogenase A; glycolysis endpoint
+S1_metabolic_stress,BNIP3,1,inferred,Hypoxia-induced mitophagy
+S1_metabolic_stress,VEGFA,1,inferred,Hypoxia readout
+S1_metabolic_stress,PDK1,1,inferred,PDK1; inhibits pyruvate entry into TCA
+S1_metabolic_stress,DDIT4,1,inferred,REDD1; mTORC1 inhibitor under stress

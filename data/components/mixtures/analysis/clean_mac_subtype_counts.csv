@@ -1,0 +1,9 @@
+subtype,sc_healthy_1,sc_healthy_2,sc_healthy_3,sc_OA_1,sc_OA_2,sc_OA_3
+LAM_SPP1,13,93,12,6,22,14
+Mac_CD1C,276,276,389,130,206,149
+Mac_OLR1,26,58,111,630,87,638
+Mono_FCN1,143,108,53,13,41,8
+Prolif,21,16,37,12,13,7
+Resident_CCL2,332,129,450,231,155,53
+Resident_LYVE1,338,293,324,107,67,63
+Resident_MARCO,179,317,158,225,22,441
